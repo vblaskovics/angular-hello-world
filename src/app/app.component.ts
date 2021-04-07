@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-hello-world';
+  
+  users: string[];
+  constructor () {
+    this.users = ['Joe', 'Peter', 'Carlos'];
+  }
 }
